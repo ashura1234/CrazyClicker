@@ -17,7 +17,7 @@ public class BuyOprah : MonoBehaviour
             AutoCookie.CookieIncrease += 1;
             AutoCookieController.SetActive(true);
             GlobalBaker.numberOfBakers += 1;
-            GlobalBaker.bakerValue *= 1.1f;
+            GlobalBaker.bakerValue *= 1.15f;
         }
     }
 

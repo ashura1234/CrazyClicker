@@ -17,7 +17,7 @@ public class BuyShop : MonoBehaviour
             AutoSell.CashIncrease += 1;
             AutoSellController.SetActive(true);
             GlobalShop.numberOfShops += 1;
-            GlobalShop.shopValue *= 1.1f;
+            GlobalShop.shopValue *= 1.15f;
         }
     }
 

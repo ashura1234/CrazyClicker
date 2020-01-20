@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AutoCookie : MonoBehaviour
 {
-    public bool CreatingCookie = false;
+    public static bool CreatingCookie = false;
     public static int CookieIncrease = 0;
     public int InternalIncrease = 0;
 

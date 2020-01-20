@@ -6,7 +6,7 @@ using UnityEngine;
 public class SellCookie : MonoBehaviour
 {
     
-    public GameObject statusBox;
+    public GameObject statusText;
     public GameObject sellAllCookiesToggle;
     public AudioSource cashOne;
     public AudioSource cashTwo;
@@ -59,8 +59,8 @@ public class SellCookie : MonoBehaviour
         else
         {
             noCookie.Play();
-            statusBox.GetComponent<Text>().text = "Not Enough Cookies to Sell!";
-            statusBox.GetComponent<Animation>().Play("StatusAnim");
+            statusText.GetComponent<Text>().text = "Not Enough Cookies to Sell!";
+            statusText.GetComponent<Animation>().Play("StatusAnim");
         }
     }
 

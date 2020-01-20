@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class AutoSell : MonoBehaviour
 {
-    public bool SellingCookie = false;
+    public static bool SellingCookie = false;
     public static int CashIncrease = 0;
     public int InternalIncrease = 0;
 
