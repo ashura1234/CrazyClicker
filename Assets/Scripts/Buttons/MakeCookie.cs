@@ -10,7 +10,10 @@ public class MakeCookie : MonoBehaviour
 
     public void ClickTheButton()
     {
-        makeSound.Play();
+        if (makeSound.isActiveAndEnabled)
+        {
+            makeSound.Play();
+        }
         GlobalCookies.CookieCount += 1;
     }
 
